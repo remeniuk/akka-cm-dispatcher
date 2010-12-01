@@ -35,7 +35,7 @@ dispatcher
 
 1. sbt> project glassfish-managed-dispatchers-example
 2. sbt> package
-3. Deploy ... to Glassfish
+3. Deploy glassfish-managed-dispatchers-example\target\scala_2.8.0\glassfish-managed-dispatchers-example_2.8.0-1.0.war to Glassfish
 4. Create named thread pool
 5. Find list of supported dispatchers at http://localhost:8080/glassfish-managed-dispatchers-example_2.8.0-1.0/examples/dispatcherTypes
 6. Run test at http://localhost:8080/glassfish-managed-dispatchers-example_2.8.0-1.0/examples/glassfish/<dispatcher type>/<thread pool name / default for default Glassfish WorkManager>
