@@ -1,5 +1,7 @@
 TESTED AGAINST GLASSFISH 2.1.1, JDK 1.6.0_17
 
+
+
 Allows using container-managed thread pools (through JCA WorkManager) for Akka Dispathers.
 
 GlassFish example:
@@ -14,6 +16,8 @@ or
 dispatcher
 .withGlassFishManagedThreadPool("actor-thread-pool")// if you want to use named thread pool
 .buildThreadPool
+
+
 
 
 ===Download, test and build===
