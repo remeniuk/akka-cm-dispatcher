@@ -1,8 +1,11 @@
 TESTED AGAINST GLASSFISH 2.1.1, JDK 1.6.0_17
 
+Allows using container-managed thread pools (through JCA WorkManager) for Akka Dispathers. The following containers support this:
+- GlassFish (use thread-pool/work manager obtained by name or default thread-pool)
+- JBoss (use WorkManager MBean obtainer by bean name or default work manager)
+- WebSphere 6.0+, WebLogic 9.0+(use work manager obtained by JNDI name, or default work manager)
 
 
-Allows using container-managed thread pools (through JCA WorkManager) for Akka Dispathers.
 
 GlassFish example:
 
