@@ -1,6 +1,6 @@
-TESTED AGAINST GLASSFISH 2.1.1, JDK 1.6.0_17
+TESTED AGAINST GLASSFISH 2.1.1, JDK 1.6.0_17. Based on Spring TaskExecutors (http://static.springsource.org/spring/docs/2.5.x/api/org/springframework/jca/work/WorkManagerTaskExecutor.html)
 
-Allows using container-managed thread pools (through JCA WorkManager) for Akka Dispathers. The following containers support this:
+Allows using container-managed thread pools (through JCA WorkManager) for Akka Dispathers. The following containers are supported:
 - GlassFish (use thread-pool/work manager obtained by name or default thread-pool)
 - JBoss (use WorkManager MBean obtainer by bean name or default work manager)
 - WebSphere 6.0+, WebLogic 9.0+(use work manager obtained by JNDI name, or default work manager)
